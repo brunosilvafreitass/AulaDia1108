@@ -17,7 +17,7 @@ public class Pessoa {
 	}
 	
 	public void CalcularDesconto(double percetualdesconto ) {
-		this.valordesconto = percetualdesconto / valordesconto;		
+		this.valordesconto = percetualdesconto * valordesconto;		
 	}
 	
 	public void imprimir() {
@@ -25,7 +25,7 @@ public class Pessoa {
         System.out.println("Telefone: " + telefone);
         System.out.println("Email: " + email);
         System.out.println("Endereço: " + endereco);
-        System.out.println("Valor desconto: " + valordesconto);
+        System.out.println("Valor desconto: " + this.valordesconto);
 	}
 
 }

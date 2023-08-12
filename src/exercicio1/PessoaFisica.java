@@ -11,7 +11,7 @@ public class PessoaFisica extends Pessoa {
 
 	public void imprimir() {
 		super.imprimir();
-		System.out.println("Nome: " + cpf);
+		System.out.println("Cpf: " + cpf);
 	}
 }
 
